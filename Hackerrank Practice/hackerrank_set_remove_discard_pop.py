@@ -4,12 +4,12 @@ if __name__ == '__main__':
     o = int(input())
     for i in range(0, o):
         q = input().split()
-        if (q[0] == 'remove'):
+        if q[0] == 'remove':
             s.remove(int(q[1]))
-        elif (q[0] == 'discard'):
+        elif q[0] == 'discard':
             s.discard(int(q[1]))
         else:
             s.pop()
-    print(s) 
+    print(sum(s))
 
 
