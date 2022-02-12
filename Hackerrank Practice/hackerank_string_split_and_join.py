@@ -16,5 +16,5 @@ if __name__ == '__main__':
     s = input()
     s = s.split(" ")
     print(s)
-    s = " ".join(s)
+    s = "+".join(s)
     print(s)
